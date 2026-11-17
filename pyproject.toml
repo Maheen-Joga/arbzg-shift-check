@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arbzg-check"
+version = "0.1.0"
+description = "Check shift rosters against the German Working Hours Act (ArbZG): daily hours, breaks, rest periods, Sundays and night work."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Maheen Joga" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["arbzg_check"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
