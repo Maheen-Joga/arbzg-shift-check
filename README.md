@@ -6,7 +6,7 @@ A screening tool, not legal advice. Standard library only.
 **Status: early development.** Built in small steps; checked items exist and are tested.
 
 - [x] Daily working time and breaks (ArbZG §3, §4)
-- [ ] Rest period between shifts (§5), with the sector exception
+- [x] Rest period between shifts (§5), with the sector exception
 - [ ] CSV roster loader with row-level error messages
 - [ ] Sundays and public holidays (§9, §11), Berlin holidays computed from Easter
 - [ ] Night work and averaging periods (§3, §6)
