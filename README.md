@@ -9,7 +9,7 @@ A screening tool, not legal advice. Standard library only.
 - [x] Rest period between shifts (§5), with the sector exception
 - [x] CSV roster loader with row-level error messages
 - [x] Sundays and public holidays (§9, §11), Berlin holidays computed from Easter
-- [ ] Night work and averaging periods (§3, §6)
+- [x] Night work and averaging periods (§3, §6)
 - [ ] Command-line tool, rules reference and final README
 
 ```python
