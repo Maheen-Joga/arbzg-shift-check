@@ -15,6 +15,9 @@ dependencies = []
 [project.optional-dependencies]
 dev = ["pytest>=8"]
 
+[project.scripts]
+arbzg-check = "arbzg_check.cli:main"
+
 [tool.setuptools]
 packages = ["arbzg_check"]
 
